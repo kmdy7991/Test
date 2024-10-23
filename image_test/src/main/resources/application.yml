@@ -1,0 +1,25 @@
+spring:
+  ai:
+    openai:
+      api-key: secret
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+cloud:
+  aws:
+    s3:
+      bucket: harme
+
+    region:
+      static: ap-northeast-2
+      auto: false
+
+    stack:
+      auto: false
+
+    credentials:
+      access-key: secret
+      secret-key: secret
